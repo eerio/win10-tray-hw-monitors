@@ -108,7 +108,7 @@ public class Program
 			
 			Color[] colors = {Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Blue, Color.Purple, Color.Pink};
 			int interval = (int)Math.Floor(val / (100 / colors.Length));
-			Color bg_col = colors[interval];
+			Color bg_col = colors[interval % 7];
 			
 			
             using (Bitmap bitmap = new Bitmap(DrawText(val.ToString(), new Font(iconFont, iconFontSize), bg_col)))
