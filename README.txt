@@ -1,3 +1,8 @@
+how to install?
+1. compile; i saved it as ram.exe
+2. put in some safe place; i've put in %appdata%/local/rame.exe
+3. open win10 Task Scheduler, create a new task
+4. set run with highest privileges (optionally; see below), trigger: log on, action: run this .exe
 Compile this file however you like to
 
 I placed it in my Desktop folder and then issued:
@@ -21,6 +26,7 @@ tray icons may get stuck in the hidden area and i can do nothing with it:
 https://stackoverflow.com/questions/15148886/stop-auto-hiding-tray-notification-icon
 sometimes its just needed to promote them by the user themselves
 +they are visible normally when you run .exe by hand, not from autostart
+edit: if ran by Task Scheduler, they are normally visible
 
 This program wouldn't exist without these two AMAZING pieces of code:
 Accepted answer:
